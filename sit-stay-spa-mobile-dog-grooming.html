@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>Sit. Stay. Spa. | Homepage concept</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Fredoka,sans-serif;font-size:19px;line-height:1.45;color:#2a1f3d}
+.note{font-size:12px;padding:8px 16px;text-align:center;background:#2a1f3d;color:#fff}
+.bar{position:sticky;top:0;z-index:9;display:flex;justify-content:space-between;align-items:center;padding:12px 5vw;background:#fff;border-bottom:3px solid #2a1f3d;font-weight:700}
+.bar a{background:#2a1f3d;color:#fff;text-decoration:none;padding:8px 18px;border-radius:99px}
+section{min-height:78vh;padding:8vh 6vw;display:grid;grid-template-columns:1.1fr .9fr;gap:5vw;align-items:center;border-bottom:3px solid #2a1f3d;position:relative;overflow:hidden}
+h2{font-weight:700;font-size:clamp(100px,24vw,380px);line-height:.8;letter-spacing:-.04em}
+.sit{background:#ffd23f}.stay{background:#7ee0d2}.spa{background:#ff9ec4}
+.txt b{font-size:14px;letter-spacing:.2em;text-transform:uppercase;display:block;margin-bottom:10px}
+.txt p{font-size:clamp(20px,2.4vw,28px);max-width:26ch}
+.sit h2{animation:sit 3s ease-in-out infinite;transform-origin:bottom left}
+@keyframes sit{0%,60%,100%{transform:scaleY(1)}75%{transform:scaleY(.86)}}
+.stay h2{animation:wag 1.1s ease-in-out infinite;transform-origin:10% 90%}
+@keyframes wag{50%{transform:rotate(-2.5deg)}}
+.bub{position:absolute;bottom:-80px;border:3px solid #2a1f3d;border-radius:50%;background:rgba(255,255,255,.55);animation:up linear infinite}
+.bub:nth-child(1){left:8%;width:60px;height:60px;animation-duration:7s}.bub:nth-child(2){left:27%;width:28px;height:28px;animation-duration:5s;animation-delay:-2s}.bub:nth-child(3){left:52%;width:90px;height:90px;animation-duration:9s;animation-delay:-4s}.bub:nth-child(4){left:74%;width:40px;height:40px;animation-duration:6s;animation-delay:-1s}.bub:nth-child(5){left:90%;width:66px;height:66px;animation-duration:8s;animation-delay:-5s}
+@keyframes up{to{transform:translateY(-120vh)}}
+.spa>*:not(.bub){position:relative}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.tags span{border:3px solid #2a1f3d;border-radius:99px;padding:5px 16px;background:#fff;font-size:16px;transition:transform .15s}
+.tags span:hover{transform:rotate(-4deg) scale(1.08)}
+footer{background:#2a1f3d;color:#fff;padding:8vh 6vw;text-align:center}
+footer a.big{display:block;font-weight:700;font-size:clamp(44px,9vw,130px);color:#ffd23f;text-decoration:none;line-height:1}
+footer a.big:hover{color:#ff9ec4}
+@media(max-width:760px){section{grid-template-columns:1fr;min-height:60vh}}
+</style></head><body>
+<div class="note">Homepage concept made for Sit. Stay. Spa. Mobile Dog Grooming by Moin Shaikh. A free preview, not the official Sit. Stay. Spa. website.</div>
+<div class="bar"><span>Sit. Stay. Spa. Mobile Dog Grooming</span><a href="tel:+16103560521">610-356-0521</a></div>
+<section class="sit"><h2>Sit.</h2><div class="txt"><b>Step one</b><p>You stay on the couch. Pick a day and tell us about your dog.</p></div></section>
+<section class="stay"><h2>Stay.</h2><div class="txt"><b>Step two</b><p>Don't go anywhere. The grooming van parks in your driveway in Media and nearby.</p></div></section>
+<section class="spa"><i class="bub"></i><i class="bub"></i><i class="bub"></i><i class="bub"></i><i class="bub"></i><h2>Spa.</h2><div class="txt"><b>Step three</b><p>One dog at a time gets the full treatment, then trots back inside smelling great.</p>
+<div class="tags"><span>Full grooms</span><span>Bath &amp; brush</span><span>Nail trims</span><span>De-shedding</span><span>Puppy grooms</span></div></div></section>
+<footer><p>Good dog. Now call:</p><a class="big" href="tel:+16103560521">610-356-0521</a><p style="margin-top:18px;font-size:16px">sitstayspa@gmail.com · 1037 N Providence Rd, Media, PA 19063</p></footer>
+</body></html>
